@@ -11,7 +11,7 @@ before_script:
 script:
 - ng lint
 - npm run test-headless
-- ng build --prod --base-href https://github.com/firebuggirl/travis-demo
+- ng build --prod --base-href https://firebuggirl.com/travis-demo/
 deploy:
   provider: pages
   skip_cleanup: true
