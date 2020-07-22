@@ -1,26 +1,25 @@
 # Create
 
 
-` nvm use 12 `
+`nvm use 12`
 
-` ng new travis-demo `
+`ng new travis-demo`
 
-` cd travis-demo `
+`cd travis-demo`
 
-` ng serve `
+`ng serve`
 
-` http://localhost:4200/ `
-
+`http://localhost:4200/`
 
 - Create a new GitHub repository: `travis-demo`
 
 
-  ` git init `
+   `git init`
 
-   ` git add . `
+   `git add .`
 
-   ` git commit -m "first commit" `
+   `git commit -m "first commit"`
 
-   ` git remote add origin https://github.com/firebuggirl/travis-demo.git `
+   `git remote add origin https://github.com/firebuggirl/travis-demo.git`
 
-   ` git push -u origin master `
+   `git push -u origin master`

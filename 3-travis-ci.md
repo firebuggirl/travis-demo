@@ -23,11 +23,11 @@
     - Build app => ng build
 
 
-  ` git add .travis.yml `
+  `git add .travis.yml`
 
-  ` git commit -am "Travis CI configuration" `
+  `git commit -am "Travis CI configuration"`
 
-  ` git push origin master `
+  `git push origin master`
 
   - watch the Travis CI log via dashboard as it builds app
 

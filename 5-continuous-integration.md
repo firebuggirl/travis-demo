@@ -11,14 +11,14 @@ https://blog.angularindepth.com/the-angular-devops-series-ct-ci-with-travis-ci-a
 
   - `Using a token` on the command line:
 
-  ` git clone https://github.com/username/repo.git Username: your_usernamePassword: your_token `
+  `git clone https://github.com/username/repo.git Username: your_usernamePassword: your_token`
 
 
   - In `Travis CI Dashboard` go to your project => top right click on `More options : Settings` => Scroll down to `Environment Variables`
 
     - Add new env variable + value of token:
 
-      ` GITHUB_TOKEN `
+      `GITHUB_TOKEN`
 
 ## Deploying to GitHub Pages
 
@@ -33,9 +33,11 @@ https://blog.angularindepth.com/the-angular-devops-series-ct-ci-with-travis-ci-a
 
 ### Commit and push to GitHub
 
-  ` git commit -am "Deploy to GitHub pages" `
+  `git commit -am "Deploy to GitHub pages"`
 
-  ` git push origin master `
+  `git push origin master`
 
 
   - URL => https://github.com/firebuggirl/travis-demo
+
+  https://firebuggirl.com/travis-demo/

@@ -2,8 +2,6 @@
 
 https://blog.angularindepth.com/the-angular-devops-series-ct-ci-with-travis-ci-and-github-pages-3c02664f078
 
-
-
 - Use Travis CI to implement Continuous Testing (CT) and Continuous Integration (CI) to deploy our Angular Application to GitHub Pages
 
 - push new commit:

@@ -12,7 +12,6 @@ https://blog.angularindepth.com/angular-testing-with-headless-chrome-d1343b34969
 
 - Angular CLI adds karma-chrome-launcher by default via package.json => don’t need to install anything
 
-
 ### 2 => `Unit Tests`:
 
 https://blog.angularindepth.com/angular-testing-with-headless-chrome-d1343b349699
@@ -35,7 +34,7 @@ https://blog.angularindepth.com/angular-testing-with-headless-chrome-d1343b34969
 
     - Run:
 
-      ` npm run e2e `
+      `npm run e2e`
 
 ### 3 => Run unit tests w/ Headless Chrome
 
@@ -43,14 +42,14 @@ https://blog.angularindepth.com/angular-testing-with-headless-chrome-d1343b34969
 
 - `Run`:
 
- ` npm run test-headless `
+ `npm run test-headless`
 
 - add `npm run test-headless` to  `.travis.yml`
 
 ### 4 => Commit/push to Github
 
-  ` git commit -am "Added unit for Travis CI using Headless Chrome" `
+  `git commit -am "Added unit for Travis CI using Headless Chrome"`
 
-  ` git push `
+  `git push`
 
   - switch to Travis CI Dashboard => watch project run Unit Tests + build
